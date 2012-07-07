@@ -1,0 +1,98 @@
+[
+  {
+    "af": 4, 
+    "dst_addr": "127.0.0.1", 
+    "dst_name": "test.invalid.", 
+    "from": "127.0.0.1", 
+    "fw": 4460, 
+    "msm_id": 1001234, 
+    "prb_id": 1, 
+    "proto": "UDP", 
+    "result": {
+      "ANCOUNT": 2, 
+      "ARCOUNT": 1, 
+      "ID": 15707, 
+      "NSCOUNT": 0, 
+      "QDCOUNT": 1, 
+      "abuf": "FOO", 
+      "answers": [
+        {
+          "RDLENGTH": 4, 
+          "TYPE": 1
+        }, 
+        {
+          "RDLENGTH": 160, 
+          "TYPE": 46
+        }
+      ], 
+      "rt": 39.25, 
+      "size": 229
+    }, 
+    "timestamp": 1341188528, 
+    "type": "dns"
+  }, 
+  {
+    "af": 4, 
+    "dst_addr": "127.0.0.1", 
+    "dst_name": "test.invalid.", 
+    "from": "127.0.0.1", 
+    "fw": 4460, 
+    "msm_id": 1001234, 
+    "prb_id": 2, 
+    "proto": "UDP", 
+    "result": {
+      "ANCOUNT": 2, 
+      "ARCOUNT": 1, 
+      "ID": 31205, 
+      "NSCOUNT": 0, 
+      "QDCOUNT": 1, 
+      "abuf": "BAR", 
+      "answers": [
+        {
+          "RDLENGTH": 4, 
+          "TYPE": 1
+        }, 
+        {
+          "RDLENGTH": 160, 
+          "TYPE": 46
+        }
+      ], 
+      "rt": 33.886000000000003, 
+      "size": 229
+    }, 
+    "timestamp": 1341188544, 
+    "type": "dns"
+  }, 
+  {
+    "af": 4, 
+    "dst_addr": "127.0.0.1", 
+    "dst_name": "test.invalid.", 
+    "from": "127.0.0.1", 
+    "fw": 4460, 
+    "msm_id": 1001234, 
+    "prb_id": 3, 
+    "proto": "UDP", 
+    "result": {
+      "ANCOUNT": 2, 
+      "ARCOUNT": 1, 
+      "ID": 35650, 
+      "NSCOUNT": 0, 
+      "QDCOUNT": 1, 
+      "abuf": "MOJO", 
+      "answers": [
+        {
+          "RDLENGTH": 4, 
+          "TYPE": 1
+        }, 
+        {
+          "RDLENGTH": 160, 
+          "TYPE": 46
+        }
+      ], 
+      "rt": 25.943999999999999, 
+      "size": 229
+    }, 
+    "timestamp": 1341188570, 
+    "type": "dns"
+  }
+]
